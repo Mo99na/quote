@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family:'Times New Roman', Times, serif;
+}
+.container {
+    width:700px;
+    margin: 40px auto;
+}
+.head .strong {
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: -4px;
+    margin-left: 20px;
+}
+.head p {
+    font-size: 27px;
+    margin-top: 45px;
+}
+
+ button {
+  color:#fff;
+  background-color: blue;
+  width: 267px;
+  height: 87px;
+  margin: 45px 130px;
+}
+
+button:hover{
+    background-color: green;
+    transition: 0.3s ease;
+}
+
+.quote {
+    font-size: 27px;
+    display: flex;
+    position: relative;
+    
+}
+
+.quote .author{
+    position: absolute;
+    top: 89px;
+    left: 205px;
+}
